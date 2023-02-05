@@ -610,7 +610,10 @@ ol {
 /*---------------------
   Choose Us
 -----------------------*/
-
+.jj {
+	height: 50px;
+	width: 50px;
+}	
 .chooseus {
 	padding-bottom: 50px;
 }
@@ -618,6 +621,7 @@ ol {
 .chooseus__item {
 	text-align: center;
 	margin-bottom: 30px;
+
 }
 
 .chooseus__item h5 {
