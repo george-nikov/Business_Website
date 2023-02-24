@@ -1,0 +1,55 @@
+#top_header_logo  {
+    display: none! important;
+  }
+  
+#invoice_bottom
+{
+display: none! important;
+}
+  
+@media print
+{    
+
+.top_nav, .btn-group {
+    display: none !important;
+  }
+
+footer {
+    display: none !important;
+  }
+ #top_header_invoice1, #top_header_invoice2  {
+    display: none !important;
+  }
+  @page { margin: 0; }
+  
+  .pcs_tbl, tbody, tr, td {
+     border: 1px solid #000033!important;
+  }
+  .text-right, #right_invoice_col  {
+    float:right;
+}
+#top_header_logo {
+display: block  !important;	
+	
+}
+#top_header_logo div {
+display: block  !important;	
+text-align:center;	
+}
+#top_header_logo img{
+max-width: 300px  !important;
+}
+#top_header_logo h1{
+font-size: 25px  !important;
+}
+#invoice_bottom
+{
+display: block  !important;
+	
+position: fixed;
+bottom: 0px; 
+padding: 20px; 
+width: 100%;
+}
+}
+ 
